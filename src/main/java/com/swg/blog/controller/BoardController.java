@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import com.swg.blog.service.BoardService;
+import com.swg.blog.vo.BoardVO;
+
 
 @Controller
 @RequestMapping(value = "/")

@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.sample.service.MemberService;
-import com.sample.vo.MemberVO;
+import com.swg.blog.service.MemberService;
+import com.swg.blog.vo.MemberVO;
 
 @Controller // 컨트롤러임을 명시
 @RequestMapping(value = "/") // 주소 패턴

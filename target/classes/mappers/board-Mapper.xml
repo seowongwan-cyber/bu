@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.sample.seo.BoardMapper">
+<mapper namespace="com.swg.blog.BoardMapper">
+
 	<insert id="create">
-		insert into tbl_board1 (title, userid, content)
+		insert into blog_board (title, userid, content)
 		values(#{title},#{userid}, #{content})
 	</insert>
 
-	<select id="read" resultType="com.sample.vo.BoardVO">
+	<select id="read" resultType="com.swg.blog.vo.BoardVO">
 		select
 		bno, title, userid, content,
 		regdate, viewcnt
 		from
-		tbl_board1
+		blog_board 
 		where bno = #{bno}
 	</select>
 	
 	<update id="update">
-		update tbl_board1 set title =#{title}, content
+		update blog_board  set title =#{title}, content
 		=#{content}
 		where bno = #{bno}
 	</update>
 
 	<delete id="delete">
-		delete from tbl_board1 where bno = #{bno}
+		delete from blog_board  where bno = #{bno}
 	</delete>
 
-	<select id="listAll" resultType="com.sample.vo.BoardVO">
+	<select id="listAll" resultType="com.swg.blog.vo.BoardVO">
  		<![CDATA[
  			select 
    				bno, title, userid, content, regdate, viewcnt 
  			from 
-   				tbl_board1 
+   				blog_board
  			where bno > 0 
  				order by bno desc, regdate desc
 		 ]]>

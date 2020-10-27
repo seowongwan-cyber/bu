@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.sample.seo.MemberMapper">
+<mapper namespace="com.swg.blog.MemberMapper">
 
 	<insert id="create">
-		insert into tbl_member (
+		insert into blog_member (
 		userid, userpw, username,
 		email)
 		values(#{userid}, #{userpw}, #{username}, #{email})
 
 	</insert>
 
-	<select id="read" resultType="com.sample.vo.MemberVO">
+	<select id="read" resultType="com.swg.blog.vo.MemberVO">
 		select
 		unum, userid, userpw,
 		username,
 		email,
 		rdate
 		from
-		tbl_member
+		blog_member
 		where unum = #{unum}
 	</select>
 
@@ -30,22 +30,22 @@
 
 
 	<delete id="delete">
-		delete from tbl_member where unum = #{unum}
+		delete from blog_member where unum = #{unum}
 	</delete>
 
 
-	<select id="listAll" resultType="com.sample.vo.MemberVO">
+	<select id="listAll" resultType="com.swg.blog.vo.MemberVO">
  		<![CDATA[
  			select 
    				unum, userid, userpw, username, email, rdate
  			from 
-   				tbl_member 
+   				blog_member 
  			where unum > 0 
  				order by unum desc, rdate desc
 		 ]]>
 	</select>
 
-	<select id="login" resultType="com.sample.vo.MemberVO">
+	<select id="login" resultType="com.swg.blog.vo.MemberVO">
 		select
 		userid, username
 		from
@@ -54,8 +54,8 @@
 
 	</select>
 
-	<select id="idCheck" resultType="com.sample.vo.MemberVO">
-		select userid from tbl_member
+	<select id="idCheck" resultType="com.swg.blog.vo.MemberVO">
+		select userid from blog_member
 		where userid=#{userid}
 	</select>
 	
