@@ -1,0 +1,27 @@
+.sec-container {
+    width:950px;
+    margin: auto auto;
+    padding-top: 180px;
+}
+.sec-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+.btn-plus{
+    position:absolute;
+    top:70px;
+    left:70px;
+    background:red;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    text-align:center;
+    /* 추가된 부분 */
+    opacity:0;
+    transform:scale(2);
+    transition:all .3s linear; 
+}
+.January:hover .btn-plus {
+    opacity:1;
+    transform:scale(1);
+  }

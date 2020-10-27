@@ -1,0 +1,43 @@
+.March-img{
+    background-image: url("../../images/month/March1.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.March-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.March-box1{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+    background-color: white;
+    grid-gap: 0px;
+    margin-left: 0px;
+    width: 1000px;
+    height: 500px;
+}
+.March-box1-img1{
+    background-image: url("../../images/month/March2.jpg");
+    background-size: cover;
+    width: 495px;
+    height: 500px;
+    margin: auto auto;
+}
+.March-box1-img1:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.March-box1-img2{
+    background-image: url("../../images/month/March3.jpg");
+    background-size: cover;
+    width: 495px;
+    height: 500px;
+    margin: auto auto;
+}
+.March-box1-img2:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}

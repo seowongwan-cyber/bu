@@ -16,7 +16,7 @@ public class MemberDAOImpl implements MemberDAO {
 	@Inject
 	private SqlSession session;
 	
-	private static String namespace = "com.sample.seo.MemberMapper";
+	private static String namespace = "com.swg.blog.MemberMapper";
 	
 	
 	@Override

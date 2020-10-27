@@ -1,0 +1,27 @@
+.May-img{
+    background-image: url("../../images/month/May.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.May-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.May-img2{
+    background-image: url("../../images/month/May2.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.May-img2:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.May-img2:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}

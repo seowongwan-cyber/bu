@@ -1,0 +1,142 @@
+.February-img{
+    background-image: url("../../images/month/February.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.February-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.February-img2{
+    background-image: url("../../images/month/February2.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.February-img2:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.February-box1{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-gap: 10px;
+    background-color: white;
+    margin-left: 0px;
+    width: 1000px;
+    height: 500px;
+
+}
+.February-box1-img1{   
+    background-image: url("../../images/month/February3.jpg");
+    background-size: cover;
+    width: 370px;
+    height: 500px;
+    margin: auto auto;
+}
+.February-box1-img1:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.February-box1-img2{   
+    background-image: url("../../images/month/February4.jpg");
+    background-size: cover;
+    width: 620px;
+    height: 500px;
+    margin: auto auto;
+}
+.February-box1-img2:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.February-box2{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    grid-gap: 10px;
+    background-color: white;
+    margin-left: 0px;
+    width: 1000px;
+    height: 500px;
+
+}
+.February-box2-img1{   
+    background-image: url("../../images/month/February5.jpg");
+    background-size: cover;
+    width: 495px;
+    height: 500px;
+    margin: auto auto;
+}
+.February-box2-img1:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.February-box2-img2{   
+    background-image: url("../../images/month/February6.jpg");
+    background-size: cover;
+    width: 495px;
+    height: 500px;
+    margin: auto auto;
+}
+.February-box2-img2:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.February-box3{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+    background-color: white;
+    margin-left: 0px;
+    width: 1000px;
+    height: 750px;
+}
+.February-box3-img1{
+    
+    background-image: url("../../images/month/February7.jpg");
+    background-size: cover;
+    width: 495px;
+    height: 370px;
+    margin: auto auto;
+}
+.February-box3-img1:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}   
+.February-box3-img2{
+    background-image: url("../../images/month/February8.jpg");
+    background-size: cover;
+    width: 495px;
+    height: 370px;
+    margin: auto auto;
+}
+.February-box3-img2:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.February-box3-img3{
+     background-image: url("../../images/month/February9.jpg"); 
+    background-size: cover;
+    width: 495px;
+    height: 370px;
+    margin: auto auto;
+}
+.February-box3-img3:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.February-box3-img4{
+    background-image: url("../../images/month/February10.jpg");
+    background-size: cover;
+    width: 495px;
+    height: 370px;
+    margin: auto auto;
+}
+.February-box3-img4:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}

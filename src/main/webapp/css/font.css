@@ -1,0 +1,215 @@
+.darkness {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	background: #000000;
+	opacity: 0;
+	transition: all .6s linear;
+}
+
+.font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 110px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.font span {
+	font-size: 1.5em;
+	color: #ffffff;
+	user-select: none;
+}
+/*  */
+.category2-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 87px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category3-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 70px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category4-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 87px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category5-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 95px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category6-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 97px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category7-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 100px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category8-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 100px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category9-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 85Px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category10-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 68px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category11-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 85px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category12-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 70px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.category13-img .font {
+	position: absolute;
+	text-align: center;
+	margin: 170px 70px;
+	opacity: 0;
+	transform: scale(2);
+	transition: all .3s linear;
+}
+
+.sec-box1 p {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.sec-box1-img1 p {
+	font-size: 20px;
+	margin-top: 600px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-box1 p {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.sec-box1-img1 p {
+	font-size: 20px;
+	margin-top: 600px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-box2 p {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.sec-box2-img2 p {
+	font-size: 20px;
+	margin-top: 600px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-box3 p {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.sec-box3-img3 p {
+	font-size: 20px;
+	margin-top: 600px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-box4 p {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.sec-box4-img4 p {
+	font-size: 20px;
+	margin-top: 600px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-box5 p {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.sec-box5-img5 p {
+	font-size: 20px;
+	margin-top: 600px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-box6 p {
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.sec-box6-img6 p {
+	font-size: 20px;
+	margin-top: 600px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,21 @@
+.footer{
+    color: #d3d3d3;
+    height: 50px;
+    position: relative;
+    text-align: bottom;
+}
+
+.footer .footer-content{
+    height: 50px;
+    color : #fff;
+}
+li{
+    list-style: none;
+    display: center;
+    margin: 20px 30px;
+    font-size : 20px;
+    padding: 20px 0px;
+    color : black;
+    border-radius: 50%;
+    text-align: center;
+}

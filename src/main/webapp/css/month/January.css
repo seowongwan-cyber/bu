@@ -1,0 +1,61 @@
+.January-img{
+    background-image: url("../../images/month/January.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.January-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.January-img2{
+    background-image: url("../../images/month/January.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.January-img2:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.January-box1{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+    background-color: white;
+    grid-gap: 0px;
+    margin-left: 0px;
+    width: 1000px;
+    height: 750px;
+}
+.January-box1-img1{
+    
+    background-image: url("../../images/month/January3.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 375px;
+    margin: auto auto;
+}
+.January-box1-img2{
+    background-image: url("../../images/month/January4.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 375px;
+    margin: auto auto;
+}
+.January-box1-img3{
+    background-image: url("../../images/month/January6.jpg"); 
+    background-size: cover;
+    width: 500px;
+    height: 375px;
+    margin: auto auto;
+}
+.January-box1-img4{
+    background-image: url("../../images/month/January5.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 375px;
+    margin: auto auto;
+}

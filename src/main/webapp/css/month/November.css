@@ -1,0 +1,11 @@
+.November-img{
+    background-image: url("../../images/month/November.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.November-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}

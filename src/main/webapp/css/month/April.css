@@ -1,0 +1,44 @@
+.April-img{
+    background-image: url("../../images/month/April.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.April-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.April2-img{
+    background-image: url("../../images/month/April2.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.April2-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.April3-img{
+    background-image: url("../../images/month/April3.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.April3-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.April4-img{
+    background-image: url("../../images/month/April4.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.April4-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}

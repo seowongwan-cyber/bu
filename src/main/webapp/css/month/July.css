@@ -1,0 +1,11 @@
+.July-img{
+    background-image: url("../../images/month/July.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 750px;
+    margin: auto auto;
+}
+.July-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}

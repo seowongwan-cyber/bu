@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+input[type="text"], input[type="password"] {
+	width: 20%;
+	box-sizing: border-box;
+	line-height: normal;
+	line-height /* 초기화  */;
+	padding:.10em; /*여백 설정  */;
+}

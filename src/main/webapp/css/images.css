@@ -1,0 +1,238 @@
+.category2-img {
+    background-image: url("../images/portfolio/portfolio.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category2-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category2-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category3-img {
+    background-image: url("../images/portfolio/portfolio2.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category3-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category3-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category4-img {
+    background-image: url("../images/portfolio/portfolio3.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category4-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category4-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category5-img {
+    background-image: url("../images/portfolio/portfolio4.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category5-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category5-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category6-img {
+    background-image: url("../images/portfolio/portfolio5.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category6-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category6-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category7-img {
+    background-image: url("../images/portfolio/portfolio6.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category7-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category7-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category8-img {
+    background-image: url("../images/portfolio/portfolio7.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category8-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category8-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category9-img {
+    background-image: url("../images/portfolio/portfolio8.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category9-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category9-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category10-img {
+    background-image: url("../images/portfolio/portfolio9.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category10-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category10-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+/*수정해야함*/
+.category11-img {
+    background-image: url("../images/portfolio/portfolio10.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category11-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category11-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category12-img {
+    background-image: url("../images/portfolio/portfolio11.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category12-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category12-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.category13-img {
+    background-image: url("../images/portfolio/portfolio12.jpg");
+    background-size: cover;
+    height:400px;
+    width: 250px;
+}
+.category13-img:hover .darkness{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.category13-img:hover .font {
+    opacity:1;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+.sec-box1-img1{
+    background-image: url("../images/blog.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    margin: -80px 180px 20px
+}
+
+.sec-box2-img2{
+    background-image: url("../images/blog2.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    margin: -80px 180px 20px
+}
+
+.sec-box3-img3{
+    background-image: url("../images/blog3.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    margin: -80px 180px 20px
+}
+.sec-box4-img4{
+    background-image: url("../images/blog4.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    margin: -80px 180px 20px
+}
+
+.sec-box5-img5{
+    background-image: url("../images/blog5.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    margin: -80px 180px 20px
+}
+.sec-box6-img6{
+    background-image: url("../images/blog6.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    margin: -80px 180px 20px
+}
+

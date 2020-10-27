@@ -23,7 +23,7 @@
 	</select>
 
 	<update id="update">
-		update tbl_member set userpw =#{userpw}
+		update blog_member set userpw =#{userpw}
 		where unum =
 		#{unum}
 	</update>
@@ -49,7 +49,7 @@
 		select
 		userid, username
 		from
-		tbl_member
+		blog_member
 		where userid = #{userid} and userpw = #{userpw}
 
 	</select>
@@ -58,8 +58,6 @@
 		select userid from blog_member
 		where userid=#{userid}
 	</select>
-	
-	
-	
+		
 	
 </mapper>
