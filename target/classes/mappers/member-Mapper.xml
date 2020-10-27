@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sample.seo.MemberMapper">
+
+	<insert id="create">
+		insert into tbl_member (
+		userid, userpw, username,
+		email)
+		values(#{userid}, #{userpw}, #{username}, #{email})
+
+	</insert>
+
+	<select id="read" resultType="com.sample.vo.MemberVO">
+		select
+		unum, userid, userpw,
+		username,
+		email,
+		rdate
+		from
+		tbl_member
+		where unum = #{unum}
+	</select>
+
+	<update id="update">
+		update tbl_member set userpw =#{userpw}
+		where unum =
+		#{unum}
+	</update>
+
+
+	<delete id="delete">
+		delete from tbl_member where unum = #{unum}
+	</delete>
+
+
+	<select id="listAll" resultType="com.sample.vo.MemberVO">
+ 		<![CDATA[
+ 			select 
+   				unum, userid, userpw, username, email, rdate
+ 			from 
+   				tbl_member 
+ 			where unum > 0 
+ 				order by unum desc, rdate desc
+		 ]]>
+	</select>
+
+	<select id="login" resultType="com.sample.vo.MemberVO">
+		select
+		userid, username
+		from
+		tbl_member
+		where userid = #{userid} and userpw = #{userpw}
+
+	</select>
+
+	<select id="idCheck" resultType="com.sample.vo.MemberVO">
+		select userid from tbl_member
+		where userid=#{userid}
+	</select>
+	
+	
+	
+	
+</mapper>
