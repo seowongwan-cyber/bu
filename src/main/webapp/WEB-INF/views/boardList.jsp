@@ -12,6 +12,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/footer.css">
+<link rel="stylesheet" href="../../css/board.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet"
@@ -49,7 +50,7 @@
 				<thead>
 					<tr>
 						<th>번호</th>
-						<th>제목</th>
+						<th class="jd-th-1">제목</th>
 						<th>작성자</th>
 						<th>작성일</th>
 						<th>조회수</th>
@@ -67,9 +68,9 @@
 				</c:forEach>
 			</table>
 		</div>
-		<center>
+
 			<button type="submit">글쓰기</button>
-		</center>
+
 	</body>
 </form>
 </html>

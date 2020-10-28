@@ -38,11 +38,11 @@
 			</ul>
 		</div>
 	</nav>
-					<c:if test="${member == null }">
 	<div class="container">
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top: 20px;">
+					<c:if test="${member == null }">
 				<form role="form" method="post" autocomplete="off" action="/login">
 					<h3 style="text-align: center;">로그인 화면</h3>
 						<div class="form-group">
