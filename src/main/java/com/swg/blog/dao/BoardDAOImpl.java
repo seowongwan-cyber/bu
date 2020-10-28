@@ -15,7 +15,7 @@ public class BoardDAOImpl implements BoardDAO {
 	@Inject
 	private SqlSession session;
 	
-	private static String namespace = "com.sample.seo.BoardMapper";
+	private static String namespace = "com.swg.blog.BoardMapper";
 	
 	@Override
 	public void create(BoardVO vo) throws Exception {

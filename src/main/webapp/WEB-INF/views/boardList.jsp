@@ -48,7 +48,7 @@
 			<table class="table table-bordered">
 				<thead>
 					<tr>
-						<th>글번호</th>
+						<th>번호</th>
 						<th>제목</th>
 						<th>작성자</th>
 						<th>작성일</th>
