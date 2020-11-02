@@ -1,10 +1,6 @@
-  table, th, td {
-    border: 1px solid #bcbcbc;
-    text-align: center;
-  }
-  .jb-th-1 {
-    width: 400px;
-  }
-ccontainer{
-	
+th, td {
+	text-align: center;
+}
+table{
+	margin : 5px 7px 3px 0px;
 }

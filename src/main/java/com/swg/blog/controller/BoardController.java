@@ -66,7 +66,7 @@ public class BoardController {
 	// 데이터 전송
 	public String modifyPOST(BoardVO board, RedirectAttributes rttr) throws Exception {
 		service.modify(board); // 글수정 서비스 호출
-		return "redirect:/listAll"; // 수정이 완료된 후, 목록페이지로 리턴
+		return "boardRead"; // 수정이 완료된 후, 목록페이지로 리턴
 	}
 
 	@RequestMapping(value = "/boardremove", method = RequestMethod.POST) // POST방식으로

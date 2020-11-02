@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+	pageEncoding="UTF-8"%>
+
+<!DOCTYPE html>
 <html>
 <head>
 <title>글읽기</title>
@@ -50,6 +51,12 @@
 					<td><textarea name="content" cols="50" rows="13">${boardVO.content}</textarea></td>
 					<td>&nbsp;</td>
 				</tr>
+				
+				<tr>
+					<td>첨부파일1</td>
+					<td><input name="attorg" value="${boardVO.attorg}" /></td>
+				</tr>
+
 				<tr height="1" bgcolor="#dddddd">
 					<td colspan="4"></td>
 				</tr>
