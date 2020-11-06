@@ -20,7 +20,7 @@
 					<td>&nbsp;</td>
 					<td align="center">글번호</td>
 					<td><input name="bno" value="${boardVO.bno}"
-						readonly="readonly" size="50" maxlength="100"></td>
+						readonly="readonly" size="50" maxlength="100" disabled="disabled"></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr height="1" bgcolor="#dddddd">
@@ -39,8 +39,8 @@
 				<tr>
 					<td>&nbsp;</td>
 					<td align="center">작성자</td>
-					<td><input name="userid" value="${boardVO.userid}" disabled="disabled" size="50"
-						maxlength="50"></td>
+					<td><input name="userid" value="${boardVO.userid}"
+						disabled="disabled" size="50" maxlength="50"></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr height="1" bgcolor="#dddddd">
@@ -52,10 +52,15 @@
 					<td><textarea name="content" cols="50" rows="13">${boardVO.content}</textarea></td>
 					<td>&nbsp;</td>
 				</tr>
-				
+				<tr height="1" bgcolor="#dddddd">
+					<td colspan="4"></td>
+				</tr>
+
 				<tr>
-					<td>첨부파일1</td>
+					<td>&nbsp;</td>
+					<td>첨부파일</td>
 					<td><input type="file" name="attorg" />${boardVO.attorg}</td>
+					<td>&nbsp;</td>
 				</tr>
 
 				<tr height="1" bgcolor="#dddddd">

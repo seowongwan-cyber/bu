@@ -4,3 +4,7 @@ th, td {
 table{
 	margin : 5px 7px 3px 0px;
 }
+text-center{
+	position : relative;
+	left: 300px;
+}

@@ -39,7 +39,7 @@
 					<td>&nbsp;</td>
 					<td align="center">작성자</td>
 					<td><input name="userid" value="${boardVO.userid}" size="50"
-						maxlength="50"></td>
+						maxlength="50" disabled="disabled"></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr height="1" bgcolor="#dddddd">
@@ -51,10 +51,14 @@
 					<td><textarea name="content" cols="50" rows="13">${boardVO.content}</textarea></td>
 					<td>&nbsp;</td>
 				</tr>
-				
+				<tr height="1" bgcolor="#dddddd">
+					<td colspan="4"></td>
+				</tr>
 				<tr>
-					<td>첨부파일1</td>
+					<td>&nbsp;</td>
+					<td align="center">첨부파일</td>
 					<td><input name="attorg" value="${boardVO.attorg}" /></td>
+					<td>&nbsp;</td>
 				</tr>
 
 				<tr height="1" bgcolor="#dddddd">

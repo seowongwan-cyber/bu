@@ -59,8 +59,14 @@
 						<td><span class="badge bg-red">${boardVO.viewcnt}</span></td>
 					</tr>
 				</c:forEach>
-
 			</table>
+
+			<p align="right">
+				<button type="submit">글쓰기</button>
+			</p>
+
+
+
 
 			<div class="text-center">
 				<ul class="pagination">
@@ -75,7 +81,6 @@
 
 		</div>
 
-		<button type="submit">글쓰기</button>
 
 		<script src="js/jquery-3.1.1.js"></script>
 		<script

@@ -26,21 +26,26 @@
 				<tr>
 					<td>&nbsp;</td>
 					<td align="center">작성자</td>
-					<td><input name="userid"></td>
+					<td><input name="userid" value = "${member.userid}" disabled="disabled"></td>
 					<td>&nbsp;</td>
 				</tr>
 				<tr height="1" bgcolor="#dddddd">
 					<td colspan="4"></td>
 				</tr>
-				<td>&nbsp;</td>
-
-				<td align="center">내용</td>
-				<td><textarea name="content" cols="50" rows="13"></textarea></td>
-				<td>&nbsp;</td>
-
 				<tr>
-					<td>첨부파일1</td>
+					<td>&nbsp;</td>
+					<td align="center">내용</td>
+					<td><textarea name="content" cols="50" rows="13"></textarea></td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr height="1" bgcolor="#dddddd">
+					<td colspan="4"></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td align="center">첨부파일1</td>
 					<td><input type="file" name="attorg" /></td>
+					<td>&nbsp;</td>
 				</tr>
 
 				<tr height="1" bgcolor="#dddddd">
